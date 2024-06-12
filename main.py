@@ -36,7 +36,7 @@ def upload():
         file.save(file_path)
         
         from roboflow import Roboflow
-        rf = Roboflow(api_key="Ch0o7kU3qeNdMdVe9zVT")
+        rf = Roboflow(api_key="********PUT YOUR OWN API KEY HERE**********")
         project = rf.workspace().project("roi_det_2")
         model = project.version(1).model
         model.predict(file_path, confidence=40, overlap=30).save("static/outputs/prediction.jpg")
