@@ -4,7 +4,7 @@
 This project aims to detect hip fractures in medical images using a deep learning model integrated with Flask web framework. It utilizes Roboflow for model training and inference and supervision for image annotation.
 
 ## Video Demonstration
-
+https://github.com/swagatx1/HIP-DETECTION/assets/113201534/843a0439-e487-45f8-92ed-0a09b87df985
 
 ## Technologies Used
 - Python
